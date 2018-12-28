@@ -1,4 +1,5 @@
-name: servant-todo
+name: haskell-scaffold
+author: Nikolai Paul <nikolai.paul@zenex.de>
 version: 0.0.0
 license: MIT
 
@@ -7,7 +8,7 @@ dependencies:
 - protolude
 
 executables:
-  servant-todo:
+  haskell-scaffold:
     source-dirs: src
     main: Main.hs
     ghc-options:
@@ -22,3 +23,5 @@ executables:
     default-extensions:
       - NoImplicitPrelude
       - OverloadedStrings
+      - NamedFieldPuns
+      - RecordWildCards

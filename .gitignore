@@ -1,2 +1,2 @@
-servant-todo.cabal
+*.cabal
 .stack-work/
