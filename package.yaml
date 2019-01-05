@@ -6,6 +6,7 @@ license: MIT
 dependencies:
 - base
 - protolude
+- containers
 
 executables:
   haskell-scaffold:
@@ -25,3 +26,4 @@ executables:
       - OverloadedStrings
       - NamedFieldPuns
       - RecordWildCards
+      - DuplicateRecordFields
