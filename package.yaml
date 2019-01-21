@@ -20,7 +20,12 @@ executables:
       - -Wcompat
       - -Wincomplete-record-updates
       - -Wincomplete-uni-patterns
+      - -Wpartial-fields
+      - -Widentities
       - -Wredundant-constraints
+      - -Wcpp-undef
+      - -Wmissing-export-lists
+      - -Wmonomorphism-restriction
     default-extensions:
       - NoImplicitPrelude
       - OverloadedStrings
